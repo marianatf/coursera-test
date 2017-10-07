@@ -113,7 +113,7 @@ p {
     width: 50%;
     float: left;
   }
-  .col-lg-tablet {
+  .col-lg-below {
    width: 100%;
    float: left;
  }
