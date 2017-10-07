@@ -113,7 +113,7 @@ p {
     width: 50%;
     float: left;
   }
-  .col-lg-t{
+  .col-lg-below {
    width: 100%;
    float: left;
  }
@@ -121,7 +121,7 @@ p {
 
 /* Mobile view (equal to or less than 767px) */
 @media (max-width: 767px){
-  .col-lg-4{
+  .col-lg-4 {
     width: 100%;
     float: left;
   }
