@@ -1,10 +1,72 @@
 body {
-  font-size: 16px;
+  font-size: 16px;	
 }
-
 /** HEADER **/
 #header-nav {
-  background-color: #8a8a8a;
+  background-color: #999999;
   border-radius: 0;
-  border: 2px solid black;
+  border: 3px solid black;
+}
+.navbar-brand {
+  margin-top: 10px;
+  padding-top:10px;
+} 
+.navbar-header h1 {
+	color: black;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 20px;
+	line-height: .95;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 2px solid black;
+}
+#nav-list {
+	margin: 0px;
+}
+#nav-list a {
+	text-align: center;
+	color: black;
+	font-size: 1em;
+	font-weight: bold;
+	background: white;
+	line-height: 10px;
+	margin: 0 -15px;
+	border: 1px solid;
+} 
+/** CONTENT **/
+.our-menu {
+    margin:15px;
+    width: 90%;
+    margin-right:auto;
+    margin-left:auto;
+}
+.title {
+	color: black;
+	margin-bottom: 40px;
+	font-weight: bold;
+	font-size: 2em;
+}
+.menu-content {
+    background:#999999; 
+    margin-bottom: 30px;
+    padding: 10px;    
+    font-weight: bold;
+}
+.menu-content h2 {
+    font-weight: bold;    
+    color: black;
+    font-size: 1.5em;
+}
+.menu-content p {
+  font-weight: bold;
+  color: black;
+  font-size: .9em;
+  padding: 10px;
+}
+@media (max-width:767px){
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
 }
