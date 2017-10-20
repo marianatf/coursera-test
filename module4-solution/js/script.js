@@ -28,7 +28,6 @@ assignment.
 WARNING!!! WARNING!!!
 
 */
-
 // STEP 1:
 // Wrap the entire contents of script.js inside of an IIFE
 // See Lecture 52, part 2
@@ -41,7 +40,6 @@ WARNING!!! WARNING!!!
 // using the 'speak' method or either helloSpeaker's or byeSpeaker's
 // 'speak' method.
 // See Lecture 50, part 1
-
 
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
